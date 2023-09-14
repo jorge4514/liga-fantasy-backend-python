@@ -20,7 +20,7 @@ LOG_FILE = "log.txt"
 TOTAL_JUGADORES = 1595
 INDEX_INICIO_API = 52
 TEAMS_TO_WRITE = dict()
-REQUEST_TIMEOUT = 30
+REQUEST_TIMEOUT = 60
 
 
 # Configuracion de argumentos por consola para mostrar INFO o PROGRESSBAR
@@ -212,6 +212,7 @@ def main(p_bar, total_jugadores):
                 json.dump(TEAMS_TO_WRITE[x], f, indent=4)
 
         end_time = time.time()
+        print(f"Tiempo de ejecucion total (MM:SS) {time.strftime('%M:%S', time.gmtime(end_time - start_time))}")
         logging.info(f"Tiempo de ejecucion total (MM:SS) {time.strftime('%M:%S', time.gmtime(end_time - start_time))}")
 
     # Escribir en log.txt cualquier excepcion que se produzca no controlada anteriormente

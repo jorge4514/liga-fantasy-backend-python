@@ -28,7 +28,7 @@ def start_script():
                 print(line.strip())
                 yield line.strip()  # Envía la salida al navegador en tiempo real
 
-            scraper_process.wait(timeout=180)  # Espera hasta 4 minutos (ajusta según sea necesario)
+            scraper_process.wait(timeout=200)  # Espera hasta 4 minutos (ajusta según sea necesario)
 
             if scraper_process.returncode != 0:
                 yield f"Error: {scraper_process.stderr.read()}"
