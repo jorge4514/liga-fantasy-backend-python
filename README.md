@@ -4,31 +4,16 @@
   </a>
 </p>
 
-<h2 align="center">Python Quickstart</h2>
-<p align="center">Backend engineering, supercharged.</p>
+<h2 align="center">Liga Fantasy Helper</h2>
+<p align="center">Backend engineering, Frontend (React, Python)</p>
 
 ## Overview
 
 Use this repository to get up and running on FL0 with the following stack:
 
-<table>
-<tr>
-  <th>Language</th>
-  <td>Python</td>
-</tr>
-<tr>
-  <th>Router</th>
-  <td>Flask</td>
-</tr>
-</table>
-
 ## Getting Started
 
-Clone this repo and run the following commands from the project root:
-
-1. `pip install -r requirements.txt`
-2. `flask run`
-3. Visit http://127.0.0.1:5000 to see your app running
+To update server connect to {server}/start_script
 
 ## Deploying to FL0
 

@@ -103,10 +103,14 @@ def to_player_json(player_id, payload, mkt_value_payload):
 
 def format_player_stats(payload):
     # Jornada no disputada = NaN
-    player_stats = [np.nan for _ in range(0, 38)]
+    player_stats = ["Jornada no disputada" for _ in range(1, 39)]
     for jornada in payload["playerStats"]:
-        player_stats[jornada["weekNumber"] - 1] = jornada["totalPoints"]
+        week_number = jornada["weekNumber"]
+        total_points = jornada["totalPoints"]
+        if 1 <= week_number <= 38:
+            player_stats[week_number - 1] = total_points
     return player_stats
+
 
 
 def to_team_simple_json(player_id, payload):
@@ -140,16 +144,8 @@ def format_market_value(player_index, mkt_value_payload):
     for x in mkt_value_payload:
         dt = datetime.datetime.fromisoformat(x["date"])
         dt = dt.strftime("%d/%m/%Y")
-
-        # Si el diccionario esta vacio devuelve False
-        if bool(mkt_value_dict):
-            mkt_value_dict.update({
-                dt: x["marketValue"]
-            })
-        else:
-            mkt_value_dict = {
-                dt: x["marketValue"]
-            }
+        market_value = x.get("marketValue", 0)  # Obtener el valor de "marketValue" o establecerlo como 0 si es None o NaN
+        mkt_value_dict[dt] = market_value
     return mkt_value_dict
 
 
