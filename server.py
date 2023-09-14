@@ -4,7 +4,6 @@ import subprocess
 import sys
 import time
 import json
-import fantasy_scraper
 
 app = Flask(__name__)
 
@@ -21,7 +20,20 @@ def home():
 @app.route('/start_script')
 def start_script():
     def run_script():
-        fantasy_scraper.main(True, fantasy_scraper.TOTAL_JUGADORES)
+        try:
+            # Ejecuta fantasy_scraper.py en un proceso separado
+            scraper_process = subprocess.Popen(['python', 'fantasy_scraper.py'], stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
+
+            for line in scraper_process.stdout:
+                print(line.strip())
+                yield line.strip()  # Envía la salida al navegador en tiempo real
+
+            scraper_process.wait(timeout=200)  # Espera hasta 4 minutos (ajusta según sea necesario)
+
+            if scraper_process.returncode != 0:
+                yield f"Error: {scraper_process.stderr.read()}"
+        except Exception as e:
+            yield str(e)
 
     return Response(run_script(), content_type='text/plain')
 
