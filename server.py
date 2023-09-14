@@ -22,7 +22,7 @@ def start_script():
     def run_script():
         try:
             # Ejecuta fantasy_scraper.py en un proceso separado
-            scraper_process = subprocess.Popen(['python', 'fantasy_scraper.py'], stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
+            scraper_process = subprocess.Popen(['python', './fantasy_scraper.py'], stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
 
             for line in scraper_process.stdout:
                 print(line.strip())  # Muestra la salida en la consola del servidor

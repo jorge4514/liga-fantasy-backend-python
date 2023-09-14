@@ -22,13 +22,6 @@ INDEX_INICIO_API = 52
 TEAMS_TO_WRITE = dict()
 REQUEST_TIMEOUT = 30
 
-if __name__ == "__main__":
-    pdb.set_trace()
-    print("El scraper se está ejecutando...")
-
-    # Tu código de scraping aquí
-
-    print("El scraper ha terminado.")
 
 # Configuracion de argumentos por consola para mostrar INFO o PROGRESSBAR
 def check_totaljugadores_provided(value):
