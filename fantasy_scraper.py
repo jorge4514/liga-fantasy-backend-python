@@ -20,7 +20,7 @@ LOG_FILE = "log.txt"
 TOTAL_JUGADORES = 1595
 INDEX_INICIO_API = 52
 TEAMS_TO_WRITE = dict()
-REQUEST_TIMEOUT = 60
+REQUEST_TIMEOUT = 30
 
 
 # Configuracion de argumentos por consola para mostrar INFO o PROGRESSBAR
