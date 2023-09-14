@@ -22,13 +22,13 @@ def start_script():
     def run_script():
         try:
             # Ejecuta fantasy_scraper.py en un proceso separado
-            scraper_process = subprocess.Popen(['python', './fantasy_scraper.py'], stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
+            scraper_process = subprocess.Popen(['python', 'fantasy_scraper.py'], stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
 
             for line in scraper_process.stdout:
-                print(line.strip())  # Muestra la salida en la consola del servidor
+                print(line.strip())
                 yield line.strip()  # Envía la salida al navegador en tiempo real
 
-            scraper_process.wait()
+            scraper_process.wait(timeout=180)  # Espera hasta 4 minutos (ajusta según sea necesario)
 
             if scraper_process.returncode != 0:
                 yield f"Error: {scraper_process.stderr.read()}"
