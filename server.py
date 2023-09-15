@@ -21,19 +21,20 @@ def home():
 def start_script():
     def run_script():
         try:
-            # Ejecuta fantasy_scraper.py en un proceso separado
-            scraper_process = subprocess.Popen(['python', 'fantasy_scraper.py'], stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
+            # Execute fantasy_scraper.py in a separate process
+            scraper_process = subprocess.run(['python', 'fantasy_scraper.py'], stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True, timeout=240)
 
-            for line in scraper_process.stdout:
-                print(line.strip())
-                yield line.strip()  # Envía la salida al navegador en tiempo real
-
-            scraper_process.wait(timeout=200)  # Espera hasta 4 minutos (ajusta según sea necesario)
+            # Send the stdout and stderr to the browser in real-time
+            for line in scraper_process.stdout.splitlines():
+                print(line)
+                yield line
 
             if scraper_process.returncode != 0:
                 yield f"Error: {scraper_process.stderr.read()}"
+        except subprocess.TimeoutExpired:
+            yield "Error: Timeout expired (4 minutes)"
         except Exception as e:
-            yield str(e)
+            yield f"An exception occurred: {str(e)}"
 
     return Response(run_script(), content_type='text/plain')
 
