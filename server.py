@@ -31,7 +31,7 @@ def run_script():
             print(line.strip())
             output_queue.put(line.strip())  # Store the output in the queue
 
-        scraper_process.wait(timeout=200)  # Wait for a specified timeout
+        scraper_process.wait(timeout=300)  # Wait for a specified timeout
 
         if scraper_process.returncode != 0:
             output_queue.put(f"Error: {scraper_process.stderr.read()}")
@@ -46,7 +46,7 @@ def start_script():
     # Start the script in a separate thread
     script_thread = threading.Thread(target=run_script)
     script_thread.start()
-    return "Script started.", 200
+    return "Script started.", 300
 
 # Endpoint to get the script output
 @app.route('/get_output')
