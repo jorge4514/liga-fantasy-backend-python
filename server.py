@@ -80,7 +80,16 @@ def serve_json_file(path, filename):
     except Exception as e:
         # Maneja otros errores, como problemas de lectura del archivo
         return f"Error: {str(e)}", 500
-    
+
+def configure_cronjob():
+    # Configura el cronjob
+    subprocess.run(["bash", "cron.sh"])
+    print("Cronjob configurado.")   
 
 if __name__ == "__main__":
+    # Inicia la configuración del cronjob en un hilo separado
+    config_thread = threading.Thread(target=configure_cronjob)
+    config_thread.start()
+
+    # Inicia tu aplicación Flask en modo de depuración
     app.run(debug=True)
