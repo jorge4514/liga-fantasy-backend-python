@@ -4,6 +4,8 @@ import subprocess
 import sys
 import time
 import json
+import queue
+import threading
 
 app = Flask(__name__)
 
@@ -17,25 +19,42 @@ def serve_static(path):
 def home():
    return render_template('index.html')
 
+# Queue to store script output
+output_queue = queue.Queue()
+
+def run_script():
+    try:
+        # Execute fantasy_scraper.py in a separate process
+        scraper_process = subprocess.Popen(['python', 'fantasy_scraper.py'], stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
+
+        for line in scraper_process.stdout:
+            print(line.strip())
+            output_queue.put(line.strip())  # Store the output in the queue
+
+        scraper_process.wait(timeout=200)  # Wait for a specified timeout
+
+        if scraper_process.returncode != 0:
+            output_queue.put(f"Error: {scraper_process.stderr.read()}")
+    except subprocess.TimeoutExpired:
+        output_queue.put("Error: Timeout expired (4 minutes)")
+    except Exception as e:
+        output_queue.put(f"An exception occurred: {str(e)}")
+
+# Endpoint to start the script
 @app.route('/start_script')
 def start_script():
-    def run_script():
-        try:
-            # Ejecuta fantasy_scraper.py en un proceso separado
-            scraper_process = subprocess.Popen(['python', 'fantasy_scraper.py'], stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
+    # Start the script in a separate thread
+    script_thread = threading.Thread(target=run_script)
+    script_thread.start()
+    return "Script started.", 200
 
-            for line in scraper_process.stdout:
-                print(line.strip())
-                yield line.strip()  # Envía la salida al navegador en tiempo real
-
-            scraper_process.wait(timeout=200)  # Espera hasta 4 minutos (ajusta según sea necesario)
-
-            if scraper_process.returncode != 0:
-                yield f"Error: {scraper_process.stderr.read()}"
-        except Exception as e:
-            yield str(e)
-
-    return Response(run_script(), content_type='text/plain')
+# Endpoint to get the script output
+@app.route('/get_output')
+def get_output():
+    output_lines = []
+    while not output_queue.empty():
+        output_lines.append(output_queue.get())
+    return jsonify(output=output_lines)
 
 
 @app.route('/<path:path>/<path:filename>')

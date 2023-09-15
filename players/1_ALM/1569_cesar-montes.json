@@ -1,0 +1,31 @@
+{
+    "playerStats": [],
+    "points": 0,
+    "averagePoints": 0,
+    "id": "1569",
+    "team": {
+        "badgeColor": "https://assets-fantasy.llt-services.com/teambadge/t1564/color/t1564_ud-almeria.png",
+        "badgeGray": "https://assets-fantasy.llt-services.com/teambadge/t1564/gray/t1564_ud-almeria.png",
+        "badgeWhite": "https://assets-fantasy.llt-services.com/teambadge/t1564/white/t1564_ud-almeria.png",
+        "name": "UD\u00a0Almer\u00eda",
+        "id": "1",
+        "shortName": "ALM",
+        "slug": "ud-almeria",
+        "dspId": 56,
+        "store": ""
+    },
+    "name": "C\u00e9sar Montes",
+    "lastSeasonPoints": 66,
+    "nickname": "C\u00e9sar Montes",
+    "slug": "cesar-montes",
+    "positionId": 2,
+    "position": "Defensa",
+    "marketValue": {
+        "11/09/2023": 5544301,
+        "12/09/2023": 5364449,
+        "13/09/2023": 5258556,
+        "14/09/2023": 5164847,
+        "15/09/2023": 5070811
+    },
+    "playerStatus": "ok"
+}

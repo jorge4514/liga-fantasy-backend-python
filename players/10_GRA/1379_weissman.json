@@ -1,0 +1,32 @@
+{
+    "playerStats": [],
+    "points": 0,
+    "averagePoints": 0,
+    "id": "1379",
+    "team": {
+        "badgeColor": "https://assets-fantasy.llt-services.com/teambadge/t5683/color/t5683_granada-cf.png",
+        "badgeGray": "https://assets-fantasy.llt-services.com/teambadge/t5683/gray/t5683_granada-cf.png",
+        "badgeWhite": "https://assets-fantasy.llt-services.com/teambadge/t5683/white/t5683_granada-cf.png",
+        "name": "Granada CF",
+        "id": "10",
+        "shortName": "GRA",
+        "slug": "granada-cf",
+        "dspId": 206,
+        "store": ""
+    },
+    "name": "Shon Weissman",
+    "lastSeasonPoints": 37,
+    "nickname": "Weissman",
+    "slug": "weissman",
+    "positionId": 4,
+    "position": "Delantero",
+    "marketValue": {
+        "13/07/2023": 6500000,
+        "11/09/2023": 6278703,
+        "12/09/2023": 6075027,
+        "13/09/2023": 5886111,
+        "14/09/2023": 5703286,
+        "15/09/2023": 5528349
+    },
+    "playerStatus": "ok"
+}

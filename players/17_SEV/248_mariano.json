@@ -1,0 +1,32 @@
+{
+    "playerStats": [],
+    "points": 0,
+    "averagePoints": 0,
+    "id": "248",
+    "team": {
+        "badgeColor": "https://assets-fantasy.llt-services.com/teambadge/t179/color/t179_sevilla-fc.png",
+        "badgeGray": "https://assets-fantasy.llt-services.com/teambadge/t179/gray/t179_sevilla-fc.png",
+        "badgeWhite": "https://assets-fantasy.llt-services.com/teambadge/t179/white/t179_sevilla-fc.png",
+        "name": "Sevilla FC",
+        "id": "17",
+        "shortName": "SEV",
+        "slug": "sevilla-fc",
+        "dspId": 75,
+        "store": ""
+    },
+    "name": "Mariano D\u00edaz Mej\u00eda",
+    "lastSeasonPoints": 12,
+    "nickname": "Mariano",
+    "slug": "mariano",
+    "positionId": 4,
+    "position": "Delantero",
+    "marketValue": {
+        "13/07/2023": 6360000,
+        "11/09/2023": 6152766,
+        "12/09/2023": 5953176,
+        "13/09/2023": 5884358,
+        "14/09/2023": 5818525,
+        "15/09/2023": 5753590
+    },
+    "playerStatus": "ok"
+}
