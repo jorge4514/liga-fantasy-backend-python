@@ -57,6 +57,33 @@ def get_output():
     return jsonify(output=output_lines)
 
 
+# Definición de la función para fusionar archivos JSON
+def merge_json_files(folder_path):
+    all_json_data = []
+
+    for root, dirs, files in os.walk(folder_path):
+        for file in files:
+            if file.endswith(".json"):
+                file_path = os.path.join(root, file)
+                with open(file_path, "r") as json_file:
+                    try:
+                        data = json.load(json_file)
+                        all_json_data.append(data)  # Agregar datos al listado
+                    except json.JSONDecodeError as e:
+                        print(f"Error decoding JSON in file {file_path}: {str(e)}")
+                        # Puedes manejar el error como desees, por ejemplo, omitir el archivo
+
+    return all_json_data
+
+# Ruta para obtener y fusionar los archivos JSON
+@app.route('/get_all_json', methods=['GET'])
+def get_all_json():
+    folder_path = "./players"  # Reemplaza con la ruta real
+    merged_data = merge_json_files(folder_path)
+    
+    return jsonify(merged_data)
+
+
 @app.route('/<path:path>/<path:filename>')
 def serve_player_data_file(path, filename):
     return serve_json_file(path, filename)
