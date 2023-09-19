@@ -11,6 +11,10 @@ app = Flask(__name__)
 
 port = int(os.environ.get("PORT", 5000))
 
+@app.route('/app')
+def serve():
+    return send_from_directory('./la-liga-inside/build', 'index.html')
+
 @app.route('/static/<path:path>')
 def serve_static(path):
     return send_from_directory('static', path)
