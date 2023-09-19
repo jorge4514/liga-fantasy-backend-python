@@ -11,17 +11,17 @@ app = Flask(__name__)
 
 port = int(os.environ.get("PORT", 5000))
 
-@app.route('/app')
-def serve():
-    return send_from_directory('./la-liga-inside/build', 'index.html')
-
-@app.route('/static/<path:path>')
-def serve_static(path):
-    return send_from_directory('static', path)
-
 @app.route('/')
-def home():
-   return render_template('index.html')
+@app.route('/app', defaults={'path': ''})
+@app.route('/app/<path:path>')
+def serve(path):
+    if path == '':
+        return send_from_directory(os.path.join('la-liga-inside', 'build'), 'index.html')
+    else:
+        if os.path.exists(os.path.join('la-liga-inside', 'build', path)):
+            return send_from_directory(os.path.join('la-liga-inside', 'build'), path)
+        else:
+            return send_from_directory(os.path.join('la-liga-inside', 'build'), 'index.html')
 
 # Queue to store script output
 output_queue = queue.Queue()
