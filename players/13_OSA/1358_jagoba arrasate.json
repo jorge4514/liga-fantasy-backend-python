@@ -91,11 +91,57 @@
             "weekNumber": 4,
             "totalPoints": 0,
             "isInIdealFormation": false
+        },
+        {
+            "stats": {
+                "won_match": [
+                    0,
+                    0
+                ],
+                "lost_match": [
+                    1,
+                    0
+                ],
+                "drawn_match": [
+                    0,
+                    0
+                ],
+                "marca_points": [
+                    -1,
+                    0
+                ]
+            },
+            "weekNumber": 5,
+            "totalPoints": 0,
+            "isInIdealFormation": false
+        },
+        {
+            "stats": {
+                "won_match": [
+                    0,
+                    0
+                ],
+                "lost_match": [
+                    0,
+                    0
+                ],
+                "drawn_match": [
+                    1,
+                    2
+                ],
+                "marca_points": [
+                    -1,
+                    0
+                ]
+            },
+            "weekNumber": 6,
+            "totalPoints": 2,
+            "isInIdealFormation": false
         }
     ],
-    "points": 10,
-    "weekPoints": 0,
-    "averagePoints": 2.5,
+    "points": 12,
+    "weekPoints": 2,
+    "averagePoints": 2,
     "id": "1358",
     "team": {
         "badgeColor": "https://assets-fantasy.llt-services.com/teambadge/t450/color/t450_c-a-osasuna.png",
@@ -179,7 +225,15 @@
         "12/09/2023": 949218,
         "13/09/2023": 927408,
         "14/09/2023": 906334,
-        "15/09/2023": 885713
+        "15/09/2023": 885713,
+        "16/09/2023": 865923,
+        "17/09/2023": 848222,
+        "18/09/2023": 829924,
+        "19/09/2023": 811182,
+        "20/09/2023": 792196,
+        "21/09/2023": 773081,
+        "22/09/2023": 754956,
+        "23/09/2023": 737745
     },
     "playerStatus": "ok"
 }

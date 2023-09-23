@@ -91,11 +91,57 @@
             "weekNumber": 4,
             "totalPoints": 2,
             "isInIdealFormation": false
+        },
+        {
+            "stats": {
+                "won_match": [
+                    1,
+                    5
+                ],
+                "lost_match": [
+                    0,
+                    0
+                ],
+                "drawn_match": [
+                    0,
+                    0
+                ],
+                "marca_points": [
+                    -1,
+                    0
+                ]
+            },
+            "weekNumber": 5,
+            "totalPoints": 5,
+            "isInIdealFormation": false
+        },
+        {
+            "stats": {
+                "won_match": [
+                    1,
+                    5
+                ],
+                "lost_match": [
+                    0,
+                    0
+                ],
+                "drawn_match": [
+                    0,
+                    0
+                ],
+                "marca_points": [
+                    -1,
+                    0
+                ]
+            },
+            "weekNumber": 6,
+            "totalPoints": 5,
+            "isInIdealFormation": false
         }
     ],
-    "points": 12,
-    "weekPoints": 2,
-    "averagePoints": 3,
+    "points": 22,
+    "weekPoints": 5,
+    "averagePoints": 3.6666666666666665,
     "id": "1481",
     "team": {
         "badgeColor": "https://assets-fantasy.llt-services.com/teambadge/t174/color/t174_athletic-club.png",
@@ -179,7 +225,15 @@
         "12/09/2023": 895715,
         "13/09/2023": 876046,
         "14/09/2023": 857027,
-        "15/09/2023": 838379
+        "15/09/2023": 838379,
+        "16/09/2023": 820482,
+        "17/09/2023": 804598,
+        "18/09/2023": 788045,
+        "19/09/2023": 770979,
+        "20/09/2023": 753601,
+        "21/09/2023": 736029,
+        "22/09/2023": 719386,
+        "23/09/2023": 703597
     },
     "playerStatus": "ok"
 }

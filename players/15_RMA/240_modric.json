@@ -363,11 +363,101 @@
             "weekNumber": 4,
             "totalPoints": 6,
             "isInIdealFormation": false
+        },
+        {
+            "stats": {
+                "mins_played": [
+                    28,
+                    1
+                ],
+                "goals": [
+                    0,
+                    0
+                ],
+                "goal_assist": [
+                    0,
+                    0
+                ],
+                "offtarget_att_assist": [
+                    0,
+                    0
+                ],
+                "pen_area_entries": [
+                    0,
+                    0
+                ],
+                "penalty_won": [
+                    0,
+                    0
+                ],
+                "penalty_save": [
+                    0,
+                    0
+                ],
+                "saves": [
+                    0,
+                    0
+                ],
+                "effective_clearance": [
+                    0,
+                    0
+                ],
+                "penalty_failed": [
+                    0,
+                    0
+                ],
+                "own_goals": [
+                    0,
+                    0
+                ],
+                "goals_conceded": [
+                    0,
+                    0
+                ],
+                "yellow_card": [
+                    0,
+                    0
+                ],
+                "second_yellow_card": [
+                    0,
+                    0
+                ],
+                "red_card": [
+                    0,
+                    0
+                ],
+                "total_scoring_att": [
+                    0,
+                    0
+                ],
+                "won_contest": [
+                    0,
+                    0
+                ],
+                "ball_recovery": [
+                    1,
+                    0
+                ],
+                "poss_lost_all": [
+                    3,
+                    0
+                ],
+                "penalty_conceded": [
+                    0,
+                    0
+                ],
+                "marca_points": [
+                    -1,
+                    1
+                ]
+            },
+            "weekNumber": 5,
+            "totalPoints": 2,
+            "isInIdealFormation": false
         }
     ],
-    "points": 17,
-    "weekPoints": 6,
-    "averagePoints": 4.25,
+    "points": 19,
+    "averagePoints": 3.8,
     "id": "240",
     "team": {
         "badgeColor": "https://assets-fantasy.llt-services.com/teambadge/t186/color/t186_real-madrid.png",
@@ -451,7 +541,15 @@
         "12/09/2023": 18327370,
         "13/09/2023": 18169296,
         "14/09/2023": 18022173,
-        "15/09/2023": 17929821
+        "15/09/2023": 17929821,
+        "16/09/2023": 17868081,
+        "17/09/2023": 17733076,
+        "18/09/2023": 17570798,
+        "19/09/2023": 17264588,
+        "20/09/2023": 16970626,
+        "21/09/2023": 16714246,
+        "22/09/2023": 16507900,
+        "23/09/2023": 16424938
     },
     "playerStatus": "ok"
 }

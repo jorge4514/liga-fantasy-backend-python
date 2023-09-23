@@ -55,15 +55,23 @@
             "12/09/2023": 2324656,
             "13/09/2023": 2271273,
             "14/09/2023": 2223113,
-            "15/09/2023": 2182379
+            "15/09/2023": 2182379,
+            "16/09/2023": 2145701,
+            "17/09/2023": 2093336,
+            "18/09/2023": 2036417,
+            "19/09/2023": 1977763,
+            "20/09/2023": 1921401,
+            "21/09/2023": 1871106,
+            "22/09/2023": 1822710,
+            "23/09/2023": 1783612
         },
         "playerStats": [
             2,
             4,
             2,
             0,
-            "Jornada no disputada",
-            "Jornada no disputada",
+            0,
+            -3,
             "Jornada no disputada",
             "Jornada no disputada",
             "Jornada no disputada",
@@ -97,8 +105,8 @@
             "Jornada no disputada",
             "Jornada no disputada"
         ],
-        "points": 10,
-        "averagePoints": 2
+        "points": 7,
+        "averagePoints": 1
     },
     {
         "id": 859,
@@ -159,15 +167,23 @@
             "12/09/2023": 1715445,
             "13/09/2023": 1738991,
             "14/09/2023": 1763112,
-            "15/09/2023": 1797714
+            "15/09/2023": 1797714,
+            "16/09/2023": 1835131,
+            "17/09/2023": 1847066,
+            "18/09/2023": 1891862,
+            "19/09/2023": 1948880,
+            "20/09/2023": 2005105,
+            "21/09/2023": 2059313,
+            "22/09/2023": 2120105,
+            "23/09/2023": 2179431
         },
         "playerStats": [
             0,
             0,
             8,
             0,
-            "Jornada no disputada",
-            "Jornada no disputada",
+            5,
+            3,
             "Jornada no disputada",
             "Jornada no disputada",
             "Jornada no disputada",
@@ -201,8 +217,8 @@
             "Jornada no disputada",
             "Jornada no disputada"
         ],
-        "points": 15,
-        "averagePoints": 3
+        "points": 23,
+        "averagePoints": 3.2857142857142856
     },
     {
         "id": 1050,
@@ -234,15 +250,23 @@
             "12/09/2023": 21949931,
             "13/09/2023": 22023353,
             "14/09/2023": 22070285,
-            "15/09/2023": 22126745
+            "15/09/2023": 22126745,
+            "16/09/2023": 22225532,
+            "17/09/2023": 22274166,
+            "18/09/2023": 22474005,
+            "19/09/2023": 22666712,
+            "20/09/2023": 22814586,
+            "21/09/2023": 22901189,
+            "22/09/2023": 22943535,
+            "23/09/2023": 22939842
         },
         "playerStats": [
             9,
             1,
             6,
             0,
-            "Jornada no disputada",
-            "Jornada no disputada",
+            7,
+            7,
             "Jornada no disputada",
             "Jornada no disputada",
             "Jornada no disputada",
@@ -276,8 +300,8 @@
             "Jornada no disputada",
             "Jornada no disputada"
         ],
-        "points": 22,
-        "averagePoints": 4.4
+        "points": 36,
+        "averagePoints": 5.142857142857143
     },
     {
         "id": 1069,
@@ -349,15 +373,23 @@
             "12/09/2023": 836020,
             "13/09/2023": 818738,
             "14/09/2023": 802011,
-            "15/09/2023": 785563
+            "15/09/2023": 785563,
+            "16/09/2023": 769779,
+            "17/09/2023": 755923,
+            "18/09/2023": 741317,
+            "19/09/2023": 726120,
+            "20/09/2023": 710537,
+            "21/09/2023": 694688,
+            "22/09/2023": 679699,
+            "23/09/2023": 665498
         },
         "playerStats": [
             0,
             0,
             0,
             0,
-            "Jornada no disputada",
-            "Jornada no disputada",
+            1,
+            3,
             "Jornada no disputada",
             "Jornada no disputada",
             "Jornada no disputada",
@@ -391,8 +423,8 @@
             "Jornada no disputada",
             "Jornada no disputada"
         ],
-        "points": 0,
-        "averagePoints": 0
+        "points": 4,
+        "averagePoints": 0.5714285714285714
     },
     {
         "id": 1072,
@@ -464,15 +496,23 @@
             "12/09/2023": 6652329,
             "13/09/2023": 6565806,
             "14/09/2023": 6502139,
-            "15/09/2023": 6461927
+            "15/09/2023": 6461927,
+            "16/09/2023": 6434328,
+            "17/09/2023": 6342553,
+            "18/09/2023": 6446703,
+            "19/09/2023": 6587036,
+            "20/09/2023": 6696833,
+            "21/09/2023": 6787720,
+            "22/09/2023": 6874063,
+            "23/09/2023": 6964601
         },
         "playerStats": [
             4,
             4,
             0,
             0,
-            "Jornada no disputada",
-            "Jornada no disputada",
+            9,
+            -1,
             "Jornada no disputada",
             "Jornada no disputada",
             "Jornada no disputada",
@@ -506,8 +546,8 @@
             "Jornada no disputada",
             "Jornada no disputada"
         ],
-        "points": 16,
-        "averagePoints": 3.2
+        "points": 24,
+        "averagePoints": 3.4285714285714284
     },
     {
         "id": 1081,
@@ -579,15 +619,23 @@
             "12/09/2023": 750911,
             "13/09/2023": 737034,
             "14/09/2023": 723575,
-            "15/09/2023": 710265
+            "15/09/2023": 710265,
+            "16/09/2023": 697493,
+            "17/09/2023": 686529,
+            "18/09/2023": 674699,
+            "19/09/2023": 662166,
+            "20/09/2023": 649141,
+            "21/09/2023": 635748,
+            "22/09/2023": 623116,
+            "23/09/2023": 611178
         },
         "playerStats": [
             0,
             0,
             6,
             0,
-            "Jornada no disputada",
-            "Jornada no disputada",
+            0,
+            13,
             "Jornada no disputada",
             "Jornada no disputada",
             "Jornada no disputada",
@@ -621,8 +669,8 @@
             "Jornada no disputada",
             "Jornada no disputada"
         ],
-        "points": 8,
-        "averagePoints": 1.6
+        "points": 21,
+        "averagePoints": 3
     },
     {
         "id": 1090,
@@ -694,7 +742,15 @@
             "12/09/2023": 10866005,
             "13/09/2023": 10526710,
             "14/09/2023": 10195635,
-            "15/09/2023": 9873362
+            "15/09/2023": 9873362,
+            "16/09/2023": 9565876,
+            "17/09/2023": 9272260,
+            "18/09/2023": 8979516,
+            "19/09/2023": 8690754,
+            "20/09/2023": 8406627,
+            "21/09/2023": 8127516,
+            "22/09/2023": 7860007,
+            "23/09/2023": 7605391
         },
         "playerStats": [
             9,
@@ -809,15 +865,23 @@
             "12/09/2023": 1575042,
             "13/09/2023": 1528602,
             "14/09/2023": 1487360,
-            "15/09/2023": 1450157
+            "15/09/2023": 1450157,
+            "16/09/2023": 1415661,
+            "17/09/2023": 1375970,
+            "18/09/2023": 1336562,
+            "19/09/2023": 1297739,
+            "20/09/2023": 1260178,
+            "21/09/2023": 1222945,
+            "22/09/2023": 1190521,
+            "23/09/2023": 1162520
         },
         "playerStats": [
             5,
             2,
             1,
             0,
-            "Jornada no disputada",
-            "Jornada no disputada",
+            2,
+            1,
             "Jornada no disputada",
             "Jornada no disputada",
             "Jornada no disputada",
@@ -851,8 +915,8 @@
             "Jornada no disputada",
             "Jornada no disputada"
         ],
-        "points": 8,
-        "averagePoints": 1.6
+        "points": 11,
+        "averagePoints": 1.5714285714285714
     },
     {
         "id": 1097,
@@ -924,15 +988,23 @@
             "12/09/2023": 8538023,
             "13/09/2023": 8368819,
             "14/09/2023": 8202066,
-            "15/09/2023": 8050997
+            "15/09/2023": 8050997,
+            "16/09/2023": 7932763,
+            "17/09/2023": 7759321,
+            "18/09/2023": 7672787,
+            "19/09/2023": 7619221,
+            "20/09/2023": 7564868,
+            "21/09/2023": 7494645,
+            "22/09/2023": 7422863,
+            "23/09/2023": 7375457
         },
         "playerStats": [
             2,
             1,
             0,
             0,
-            "Jornada no disputada",
-            "Jornada no disputada",
+            7,
+            1,
             "Jornada no disputada",
             "Jornada no disputada",
             "Jornada no disputada",
@@ -966,8 +1038,8 @@
             "Jornada no disputada",
             "Jornada no disputada"
         ],
-        "points": 10,
-        "averagePoints": 2
+        "points": 18,
+        "averagePoints": 2.5714285714285716
     },
     {
         "id": 1123,
@@ -1039,15 +1111,23 @@
             "12/09/2023": 6605978,
             "13/09/2023": 6673044,
             "14/09/2023": 6698231,
-            "15/09/2023": 6775005
+            "15/09/2023": 6775005,
+            "16/09/2023": 6839219,
+            "17/09/2023": 6855813,
+            "18/09/2023": 6988339,
+            "19/09/2023": 7190135,
+            "20/09/2023": 7363847,
+            "21/09/2023": 7509373,
+            "22/09/2023": 7629844,
+            "23/09/2023": 7737551
         },
         "playerStats": [
             3,
             4,
             3,
             0,
-            "Jornada no disputada",
-            "Jornada no disputada",
+            8,
+            1,
             "Jornada no disputada",
             "Jornada no disputada",
             "Jornada no disputada",
@@ -1081,8 +1161,8 @@
             "Jornada no disputada",
             "Jornada no disputada"
         ],
-        "points": 21,
-        "averagePoints": 4.2
+        "points": 30,
+        "averagePoints": 4.285714285714286
     },
     {
         "id": 1166,
@@ -1133,15 +1213,23 @@
             "12/09/2023": 2526651,
             "13/09/2023": 2450117,
             "14/09/2023": 2382039,
-            "15/09/2023": 2319479
+            "15/09/2023": 2319479,
+            "16/09/2023": 2266212,
+            "17/09/2023": 2207619,
+            "18/09/2023": 2174782,
+            "19/09/2023": 2157168,
+            "20/09/2023": 2133241,
+            "21/09/2023": 2109921,
+            "22/09/2023": 2096981,
+            "23/09/2023": 2088789
         },
         "playerStats": [
             4,
             2,
             0,
             0,
-            "Jornada no disputada",
-            "Jornada no disputada",
+            8,
+            0,
             "Jornada no disputada",
             "Jornada no disputada",
             "Jornada no disputada",
@@ -1175,8 +1263,8 @@
             "Jornada no disputada",
             "Jornada no disputada"
         ],
-        "points": 8,
-        "averagePoints": 1.6
+        "points": 16,
+        "averagePoints": 2.2857142857142856
     },
     {
         "id": 1184,
@@ -1248,15 +1336,23 @@
             "12/09/2023": 511849,
             "13/09/2023": 507534,
             "14/09/2023": 503255,
-            "15/09/2023": 498757
+            "15/09/2023": 498757,
+            "16/09/2023": 494445,
+            "17/09/2023": 491603,
+            "18/09/2023": 487570,
+            "19/09/2023": 482523,
+            "20/09/2023": 476683,
+            "21/09/2023": 470188,
+            "22/09/2023": 464179,
+            "23/09/2023": 458599
         },
         "playerStats": [
             0,
             0,
             0,
             0,
-            "Jornada no disputada",
-            "Jornada no disputada",
+            0,
+            0,
             "Jornada no disputada",
             "Jornada no disputada",
             "Jornada no disputada",
@@ -1295,7 +1391,7 @@
     },
     {
         "id": 1291,
-        "status": "ok",
+        "status": "injured",
         "slug": "mascarell",
         "position": "Centrocampista",
         "marketValue": {
@@ -1348,7 +1444,15 @@
             "12/09/2023": 3065969,
             "13/09/2023": 2976865,
             "14/09/2023": 2895148,
-            "15/09/2023": 2823546
+            "15/09/2023": 2823546,
+            "16/09/2023": 2751523,
+            "17/09/2023": 2666197,
+            "18/09/2023": 2581170,
+            "19/09/2023": 2497406,
+            "20/09/2023": 2415965,
+            "21/09/2023": 2337003,
+            "22/09/2023": 2263348,
+            "23/09/2023": 2195198
         },
         "playerStats": [
             1,
@@ -1463,15 +1567,23 @@
             "12/09/2023": 846872,
             "13/09/2023": 831396,
             "14/09/2023": 818871,
-            "15/09/2023": 809185
+            "15/09/2023": 809185,
+            "16/09/2023": 799602,
+            "17/09/2023": 784553,
+            "18/09/2023": 768802,
+            "19/09/2023": 752505,
+            "20/09/2023": 735866,
+            "21/09/2023": 720592,
+            "22/09/2023": 707771,
+            "23/09/2023": 697562
         },
         "playerStats": [
             2,
             3,
             -2,
             0,
-            "Jornada no disputada",
-            "Jornada no disputada",
+            2,
+            0,
             "Jornada no disputada",
             "Jornada no disputada",
             "Jornada no disputada",
@@ -1505,8 +1617,8 @@
             "Jornada no disputada",
             "Jornada no disputada"
         ],
-        "points": 9,
-        "averagePoints": 1.8
+        "points": 11,
+        "averagePoints": 1.5714285714285714
     },
     {
         "id": 1352,
@@ -1578,15 +1690,23 @@
             "12/09/2023": 19219164,
             "13/09/2023": 18825498,
             "14/09/2023": 18483430,
-            "15/09/2023": 18187772
+            "15/09/2023": 18187772,
+            "16/09/2023": 17901228,
+            "17/09/2023": 17612531,
+            "18/09/2023": 17551307,
+            "19/09/2023": 17486818,
+            "20/09/2023": 17358409,
+            "21/09/2023": 17218337,
+            "22/09/2023": 17093230,
+            "23/09/2023": 16958106
         },
         "playerStats": [
             1,
             2,
             2,
             0,
-            "Jornada no disputada",
-            "Jornada no disputada",
+            9,
+            6,
             "Jornada no disputada",
             "Jornada no disputada",
             "Jornada no disputada",
@@ -1620,8 +1740,8 @@
             "Jornada no disputada",
             "Jornada no disputada"
         ],
-        "points": 10,
-        "averagePoints": 2
+        "points": 25,
+        "averagePoints": 3.5714285714285716
     },
     {
         "id": 1366,
@@ -1693,15 +1813,23 @@
             "12/09/2023": 926623,
             "13/09/2023": 905717,
             "14/09/2023": 885511,
-            "15/09/2023": 865723
+            "15/09/2023": 865723,
+            "16/09/2023": 846732,
+            "17/09/2023": 829798,
+            "18/09/2023": 812237,
+            "19/09/2023": 794203,
+            "20/09/2023": 775896,
+            "21/09/2023": 757433,
+            "22/09/2023": 739934,
+            "23/09/2023": 723323
         },
         "playerStats": [
             2,
             0,
             0,
             2,
-            "Jornada no disputada",
-            "Jornada no disputada",
+            5,
+            0,
             "Jornada no disputada",
             "Jornada no disputada",
             "Jornada no disputada",
@@ -1735,8 +1863,8 @@
             "Jornada no disputada",
             "Jornada no disputada"
         ],
-        "points": 4,
-        "averagePoints": 1
+        "points": 9,
+        "averagePoints": 1.5
     },
     {
         "id": 1434,
@@ -1808,15 +1936,23 @@
             "12/09/2023": 2337098,
             "13/09/2023": 2447699,
             "14/09/2023": 2560388,
-            "15/09/2023": 2670676
+            "15/09/2023": 2670676,
+            "16/09/2023": 2798001,
+            "17/09/2023": 2909908,
+            "18/09/2023": 3050346,
+            "19/09/2023": 3212195,
+            "20/09/2023": 3358157,
+            "21/09/2023": 3510029,
+            "22/09/2023": 3653971,
+            "23/09/2023": 3816153
         },
         "playerStats": [
             2,
             2,
             10,
             0,
-            "Jornada no disputada",
-            "Jornada no disputada",
+            5,
+            -1,
             "Jornada no disputada",
             "Jornada no disputada",
             "Jornada no disputada",
@@ -1850,8 +1986,8 @@
             "Jornada no disputada",
             "Jornada no disputada"
         ],
-        "points": 23,
-        "averagePoints": 4.6
+        "points": 27,
+        "averagePoints": 3.857142857142857
     },
     {
         "id": 1482,
@@ -1923,7 +2059,15 @@
             "12/09/2023": 2729724,
             "13/09/2023": 2647744,
             "14/09/2023": 2570146,
-            "15/09/2023": 2499200
+            "15/09/2023": 2499200,
+            "16/09/2023": 2433763,
+            "17/09/2023": 2360603,
+            "18/09/2023": 2287505,
+            "19/09/2023": 2215674,
+            "20/09/2023": 2144909,
+            "21/09/2023": 2075130,
+            "22/09/2023": 2009672,
+            "23/09/2023": 1949575
         },
         "playerStats": [
             -2,
@@ -1931,7 +2075,7 @@
             0,
             0,
             "Jornada no disputada",
-            "Jornada no disputada",
+            0,
             "Jornada no disputada",
             "Jornada no disputada",
             "Jornada no disputada",
@@ -1966,7 +2110,7 @@
             "Jornada no disputada"
         ],
         "points": 2,
-        "averagePoints": 0.4
+        "averagePoints": 0.3333333333333333
     },
     {
         "id": 1490,
@@ -2038,15 +2182,23 @@
             "12/09/2023": 12825027,
             "13/09/2023": 12656466,
             "14/09/2023": 12544010,
-            "15/09/2023": 12428609
+            "15/09/2023": 12428609,
+            "16/09/2023": 12297626,
+            "17/09/2023": 12159586,
+            "18/09/2023": 12168446,
+            "19/09/2023": 12228657,
+            "20/09/2023": 12313270,
+            "21/09/2023": 12393902,
+            "22/09/2023": 12421119,
+            "23/09/2023": 12462614
         },
         "playerStats": [
             5,
             7,
             1,
             0,
-            "Jornada no disputada",
-            "Jornada no disputada",
+            12,
+            3,
             "Jornada no disputada",
             "Jornada no disputada",
             "Jornada no disputada",
@@ -2080,8 +2232,8 @@
             "Jornada no disputada",
             "Jornada no disputada"
         ],
-        "points": 19,
-        "averagePoints": 3.8
+        "points": 34,
+        "averagePoints": 4.857142857142857
     },
     {
         "id": 1546,
@@ -2101,15 +2253,23 @@
             "12/09/2023": 1492602,
             "13/09/2023": 1449057,
             "14/09/2023": 1407117,
-            "15/09/2023": 1366465
+            "15/09/2023": 1366465,
+            "16/09/2023": 1327753,
+            "17/09/2023": 1291578,
+            "18/09/2023": 1271292,
+            "19/09/2023": 1261240,
+            "20/09/2023": 1247935,
+            "21/09/2023": 1232469,
+            "22/09/2023": 1222800,
+            "23/09/2023": 1217191
         },
         "playerStats": [
             "Jornada no disputada",
             "Jornada no disputada",
             "Jornada no disputada",
             0,
-            "Jornada no disputada",
-            "Jornada no disputada",
+            9,
+            1,
             "Jornada no disputada",
             "Jornada no disputada",
             "Jornada no disputada",
@@ -2143,8 +2303,8 @@
             "Jornada no disputada",
             "Jornada no disputada"
         ],
-        "points": 0,
-        "averagePoints": 0
+        "points": 10,
+        "averagePoints": 2.5
     },
     {
         "id": 1580,
@@ -2187,15 +2347,23 @@
             "12/09/2023": 4439228,
             "13/09/2023": 4318877,
             "14/09/2023": 4215640,
-            "15/09/2023": 4116187
+            "15/09/2023": 4116187,
+            "16/09/2023": 4026031,
+            "17/09/2023": 3914587,
+            "18/09/2023": 3798653,
+            "19/09/2023": 3685754,
+            "20/09/2023": 3573663,
+            "21/09/2023": 3464640,
+            "22/09/2023": 3367371,
+            "23/09/2023": 3282147
         },
         "playerStats": [
             2,
             2,
             -1,
             0,
-            "Jornada no disputada",
-            "Jornada no disputada",
+            3,
+            2,
             "Jornada no disputada",
             "Jornada no disputada",
             "Jornada no disputada",
@@ -2229,7 +2397,165 @@
             "Jornada no disputada",
             "Jornada no disputada"
         ],
-        "points": 5,
-        "averagePoints": 1
+        "points": 10,
+        "averagePoints": 1.4285714285714286
+    },
+    {
+        "id": 1696,
+        "status": "ok",
+        "slug": "siebe-van-der-heyden",
+        "position": "Defensa",
+        "marketValue": {
+            "17/08/2023": 2097913,
+            "18/08/2023": 2023048,
+            "19/08/2023": 1957962,
+            "20/08/2023": 1892696,
+            "21/08/2023": 1830046,
+            "22/08/2023": 1768607,
+            "23/08/2023": 1708176,
+            "24/08/2023": 1651208,
+            "25/08/2023": 1598755,
+            "26/08/2023": 1550680,
+            "27/08/2023": 1501767,
+            "28/08/2023": 1455202,
+            "29/08/2023": 1410015,
+            "30/08/2023": 1364468,
+            "31/08/2023": 1321446,
+            "01/09/2023": 1280263,
+            "02/09/2023": 1241253,
+            "03/09/2023": 1205129,
+            "04/09/2023": 1169929,
+            "05/09/2023": 1147015,
+            "06/09/2023": 1120726,
+            "07/09/2023": 1098281,
+            "08/09/2023": 1078678,
+            "09/09/2023": 1058537,
+            "10/09/2023": 1039307,
+            "11/09/2023": 1020052,
+            "12/09/2023": 1002609,
+            "13/09/2023": 988966,
+            "14/09/2023": 975420,
+            "15/09/2023": 970706,
+            "16/09/2023": 965197,
+            "17/09/2023": 953563,
+            "18/09/2023": 970517,
+            "19/09/2023": 1002218,
+            "20/09/2023": 1035870,
+            "21/09/2023": 1061190,
+            "22/09/2023": 1088837,
+            "23/09/2023": 1122299
+        },
+        "playerStats": [
+            "Jornada no disputada",
+            0,
+            0,
+            0,
+            8,
+            -2,
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada"
+        ],
+        "points": 14,
+        "averagePoints": 2.3333333333333335
+    },
+    {
+        "id": 1746,
+        "status": "ok",
+        "slug": "ruben-quintanilla",
+        "position": "Centrocampista",
+        "marketValue": {
+            "04/09/2023": 327016,
+            "05/09/2023": 323659,
+            "06/09/2023": 322279,
+            "07/09/2023": 322019,
+            "08/09/2023": 322707,
+            "09/09/2023": 324106,
+            "10/09/2023": 326341,
+            "11/09/2023": 328173,
+            "12/09/2023": 330168,
+            "13/09/2023": 333120,
+            "14/09/2023": 335818,
+            "15/09/2023": 338018,
+            "16/09/2023": 340136,
+            "17/09/2023": 343466,
+            "18/09/2023": 345358,
+            "19/09/2023": 345999,
+            "20/09/2023": 345620,
+            "21/09/2023": 344368,
+            "22/09/2023": 343392,
+            "23/09/2023": 342643
+        },
+        "playerStats": [
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            0,
+            0,
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada",
+            "Jornada no disputada"
+        ],
+        "points": 0,
+        "averagePoints": 0
     }
 ]
